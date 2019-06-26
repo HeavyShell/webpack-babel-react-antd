@@ -1,16 +1,16 @@
-webpack+babel+react+antd 基础demo，可用于学习构建项目，本项目所用仅为基础的配置，高级拓展可自行开发。
+### webpack+babel+react+antd 基础demo，可用于学习构建项目，本项目所用仅为基础的配置，高级拓展可自行开发。
 
 ============================================================================
 
-其中包含了：
+#### 其中包含了：
 
-1 样式加载器css，sass，less
+##### 1 样式加载器css，sass，less
 
-2 图片加载器
+##### 2 图片加载器
 
-3 webpack-dev-server本地开发热更新
+##### 3 webpack-dev-server本地开发热更新
 
-4 babel配置：
+##### 4 babel配置：
 
 （1）babel：解决不支持语法转义es6转义为es5
 
@@ -30,9 +30,9 @@ cnpm i --save @babel/runtime
 
 ============================================================================
 
-5 构建react项目，在以上基础上：
+#### 构建react项目，在以上基础上：
 
-1 若要构建react项目：
+##### 1 若要构建react项目：
 
 安装@babel/preset-react，识别编译react
 
@@ -46,7 +46,7 @@ cnpm i --save react react-dom
 
 cnpm i --save-dev @babel/plugin-proposal-class-properties
 
-2 css-module模块化
+##### 2 css-module模块化
 
 css-loader配置中增加
 
@@ -55,7 +55,7 @@ modules:{
     localIdentName: '[name]-[local]-[hash:base64:10]'
 }
 
-3 react路由设置：
+##### 3 react路由设置：
 
 cnpm i --save react-router-dom （无需使用react-router）
 
@@ -63,13 +63,13 @@ cnpm i --save react-router-dom （无需使用react-router）
 
 historyApiFallback: true, 并且 output中配置：publicPath: '/', 目的使/bundle.js为绝对路径
 
-4 redux设置：
+##### 4 redux设置：
 
 cnpm i --save redux react-redux
 
 cnpm i --save immutable axios 用户数据处理
 
-5 增加antd样式库
+##### 5 增加antd样式库
 
 cnpm i --save antd
 
@@ -77,7 +77,7 @@ cnpm i --save-dev babel-plugin-import
 
 antd默认为英文，故这里顺便做下语言国际化，支持：中文，英文，繁体（见代码）
 
-6 语言国际化切换
+##### 6 语言国际化切换
 
 提到国际化，这里顺便补充下组件react-intl
 
@@ -89,7 +89,7 @@ cnpm i --save react-intl
 ============================================================================
 
 
-使用：
+#### 使用：
 
 1 下载包解压，进入目录
 
